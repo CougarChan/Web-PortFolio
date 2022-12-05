@@ -1,5 +1,5 @@
 import React from "react";
-import { GoGrabber } from "react-icons/go";
+import { GoGrabber, GoX } from "react-icons/go";
 import { useState } from "react";
 
 
@@ -8,26 +8,27 @@ const Nav = () => {
    const  [set, setTime] =useState(false)
    const handleClick = () => setTime(!set)
    return (
-    <div className="fixed w-full bg-[#000] flex justify-between items-center px-5 text-gray-50 h-24" >
-         <h2 className="text-3xl font-bold underline"> German Lopez 
+    <div className=" flex mx-auto px-4 bg-[#000]  justify-between items-center text-gray-50 h-28" >
+         <h2 className=" text-3xl font-bold underline "> German Lopez 
         </h2>
-        
-           <ul className="hidden md:flex">
-              <li>About Me</li>
-              <li>Projects</li>
-              <li>Contact Me!</li>
+           <ul className="hidden md:flex ">
+              <li className="p-6  ">About Me</li>
+              <li className="p-6">  Projects</li>
+              <li className="p-6 ">Contact Me!</li>
            </ul>
     
-          <div onClick={handleClick} className="md-hidden z-10 cursor-pointer">
-            <GoGrabber />
+          <div onClick={handleClick} className= "block md:hidden">
+           {!set ? <GoGrabber size={30}/> : <GoX size={30}/>}
           </div>
-
-            <ul className={!set ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center '}>
-              <li className="py-6 text-3xl">About Me</li>
-              <li className="py-6 text-3xl">Projects</li>
-              <li className="py-6 text-3xl">Contact Me!</li>
+            
+            <div className={ !set ? "hidden": "fixed left-0 top-0 w-[40%] border-r border-r-gray-400  h-screen bg-black ease-in-out " }>
+            <h2 className="  text-3xl font-bold underline m-5"> German Lopez </h2>
+            <ul className=" uppercase p-4 ">
+              <li className="p-5 border-b ">About Me</li>
+              <li className="p-5 border-b ">Projects</li>
+              <li className="p-5 border-b ">Contact Me!</li>
            </ul>
-    
+            </div>
 
         
          
