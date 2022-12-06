@@ -1,15 +1,16 @@
 import React from "react";
 import Nav from "./Components/Navbar";
+import About  from "./Components/About-Me"
 
 
 function App() {
    return (
-    
-        <Nav></Nav>
+    <div>
+        <Nav/>
+        <About/>
+    </div>
 
 
-      
- 
 
   )
 
