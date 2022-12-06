@@ -6,7 +6,7 @@ import Starter from "./Components/Starter";
 
 function App() {
    return (
-    <div className=" overflow-y-hidden ">
+    <div >
         <Starter/>
         <Nav  />
         <About />

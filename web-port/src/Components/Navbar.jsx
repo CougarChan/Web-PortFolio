@@ -13,12 +13,14 @@ const Nav = () => {
    };
    
    return (
-    <div className=" flex mx-auto px-4 bg-[#1a5280]  justify-between items-center text-gray-50 h-28" >
-         <h2 className=" text-3xl font-bold p-32 "> German Lopez 
+     
+      <div className="sticky top-0">
+    <div className=" flex mx-auto px-4 bg-[#1a5280]  justify-between items-center text-gray-50 h-28 " >
+         <h2 className=" text-3xl font-bold p-3 "> German Lopez 
         </h2>
            <ul className="hidden md:flex font-extralight text-2xl ">
-              <li className="p-6  ">About Me</li>
-              <li className="p-6">  Projects</li>
+              <li className="p-6 border-r ">About Me</li>
+              <li className="p-6 border-r   ">  Projects</li>
               <li className="p-6 ">Contact Me!</li>
            </ul>
     
@@ -33,10 +35,10 @@ const Nav = () => {
               <li className="p-5 border-b ">Contact Me!</li>
            </ul>
             
-
-        
          
     </div>
+
+   </div>
    );
 };
 
