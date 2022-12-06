@@ -8,9 +8,19 @@
    li{
       @apply px-20;
       @apply cursor-pointer
+      
    }
-  
-  
+
+   
+  }
+
+
+  #StarterPage{ background-image: url('./assets/portfolio.png');
+   background-size: cover;
+   background-position: top center;
+   ;
+
+
   }
 
 

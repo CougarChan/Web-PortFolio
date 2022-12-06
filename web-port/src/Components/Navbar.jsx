@@ -14,7 +14,7 @@ const Nav = () => {
    
    return (
     <div className=" flex mx-auto px-4 bg-[#1a5280]  justify-between items-center text-gray-50 h-28" >
-         <h2 className=" text-3xl font-bold  "> German Lopez 
+         <h2 className=" text-3xl font-bold p-32 "> German Lopez 
         </h2>
            <ul className="hidden md:flex font-extralight text-2xl ">
               <li className="p-6  ">About Me</li>
