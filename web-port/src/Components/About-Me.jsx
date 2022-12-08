@@ -19,11 +19,9 @@ const About = () => {
        </span>
       </button>
     </div>
+
+    <div> HELLO</div>
     </div>
-    
-
-
-
 
   </div>
  

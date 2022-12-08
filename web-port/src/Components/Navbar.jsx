@@ -28,7 +28,7 @@ const Nav = () => {
            {set ? <GoX size={30}/> :<GoGrabber size={30}/>}
           </div>
             
-            <ul className={ set ? "fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900  bg-black ease-in-out  duration-500 " :" ease-in-out duration-500 fixed left-[-100%]"}>
+            <ul className={ set ? " fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900  bg-black ease-in-out  duration-500 " :" ease-in-out duration-500 fixed left-[-100%] top-0"}>
               <h2 className="  text-3xl font-bold underline m-5"> German Lopez </h2>
               <li className="p-5 border-b ">About Me</li>
               <li className="p-5 border-b ">Projects</li>
