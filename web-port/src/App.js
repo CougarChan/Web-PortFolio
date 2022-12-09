@@ -3,6 +3,7 @@ import Nav from "./Components/Navbar";
 import About  from "./Components/About-Me"
 import Starter from "./Components/Starter";
 import Project from "./Components/Projects";
+import Contact from "./Components/contact";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Nav  />
         <About />
         <Project/>
+        <Contact/>
         
     </div>
 
