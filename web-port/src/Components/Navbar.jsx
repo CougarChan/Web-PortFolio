@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { GoGrabber, GoX } from "react-icons/go";
 import {Link} from 'react-scroll'
+import Picture from "../assets/German López (1).png";
 
 
 
@@ -16,8 +17,9 @@ const Nav = () => {
      
       <div className="sticky top-0">
     <div className=" flex mx-auto px-4 bg-[#1a5280]  justify-between items-center text-gray-50 h-28 " >
-         <h2 className=" text-3xl font-bold p-3 "> German Lopez 
-        </h2>
+         <div > <img src= {Picture} alt="Hello" style={{width: '170px'}} />
+         </div>
+         
            <ul className="hidden md:flex font-extralight text-2xl ">
               <li className="p-6 border-r "><Link  to="About-Me"  smooth={true}  duration={500} >
           About Me
