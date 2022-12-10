@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { GoGrabber, GoX } from "react-icons/go";
-
+import {Link} from 'react-scroll'
 
 
 
@@ -19,9 +19,15 @@ const Nav = () => {
          <h2 className=" text-3xl font-bold p-3 "> German Lopez 
         </h2>
            <ul className="hidden md:flex font-extralight text-2xl ">
-              <li className="p-6 border-r ">About Me</li>
-              <li className="p-6 border-r   ">  Projects</li>
-              <li className="p-6 ">Contact Me!</li>
+              <li className="p-6 border-r "><Link  to="About-Me"  smooth={true}  duration={500} >
+          About Me
+        </Link></li>
+              <li className="p-6 border-r"> <Link  to="Projects"  smooth={true}  duration={500} >
+          Projects
+        </Link></li>
+              <li className="p-6 "><Link  to="Contact"  smooth={true}  duration={500} >
+          Contact Me!
+        </Link></li>
            </ul>
     
           <div onClick={handleClick} className= "block md:hidden">
@@ -30,9 +36,14 @@ const Nav = () => {
             
             <ul className={ set ? " fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900  bg-black ease-in-out  duration-500 " :" ease-in-out duration-500 fixed left-[-100%] top-0"}>
               <h2 className="  text-3xl font-bold underline m-5"> German Lopez </h2>
-              <li className="p-5 border-b ">About Me</li>
-              <li className="p-5 border-b ">Projects</li>
-              <li className="p-5 border-b ">Contact Me!</li>
+              <li className="p-5 border-b "><Link onClick={handleClick} to="About-Me"  smooth={true}  duration={500} >
+          About Me</Link></li>
+              <li className="p-5 border-b "><Link onClick={handleClick} to="Projects"  smooth={true}  duration={500} >
+          Projects
+        </Link></li>
+              <li className="p-5 border-b "><Link onClick={handleClick} to="Contact"  smooth={true}  duration={500} >
+          Contact Me!
+        </Link></li>
            </ul>
             
          

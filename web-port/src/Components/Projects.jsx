@@ -6,7 +6,7 @@ const Project =() => {
         const work= data;
 
  return(
-    <div className=" bg-slate-600 md:h-screen w-full ">
+    <div name="Projects" className=" bg-slate-600 md:h-screen w-full ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 
             <h1>These are the projects that i have worked on and completed</h1>
@@ -30,7 +30,7 @@ const Project =() => {
       </span>
       <div className="pt-8 text-center ">
       
-        <a href={item.github} target="_blank">
+        <a href={item.github} target="blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -39,7 +39,7 @@ const Project =() => {
           </button>
         </a>
 
-        <a href={item.live} target="_blank">
+        <a href={item.live} target="blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
