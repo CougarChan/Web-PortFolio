@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Web-Portfolio/static/css/main.7ed05b42.css",
+    "main.js": "/Web-Portfolio/static/js/main.437e74d0.js",
+    "static/media/portfolio.png": "/Web-Portfolio/static/media/portfolio.310ca8bd0c13b4734cb4.png",
+    "static/media/German López (1).png": "/Web-Portfolio/static/media/German López (1).d1a9485846320464fc03.png",
+    "index.html": "/Web-Portfolio/index.html",
+    "main.7ed05b42.css.map": "/Web-Portfolio/static/css/main.7ed05b42.css.map",
+    "main.437e74d0.js.map": "/Web-Portfolio/static/js/main.437e74d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed05b42.css",
+    "static/js/main.437e74d0.js"
+  ]
+}
