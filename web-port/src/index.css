@@ -48,3 +48,17 @@
        hsla(242, 74%, 61%, 0.8)   
    )!important;
 }
+@media screen and (max-width: 400px) {
+   
+
+#Wrapper{
+   float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;  
+
+
+
+}
+}

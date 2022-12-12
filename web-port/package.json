@@ -1,12 +1,13 @@
 {
   "name": "web-port",
   "version": "0.1.0",
-  "homepage": "https://CougarChan.github.io/Web-Portfolio",
+  "homepage": "https://cougarchan.github.io/Web-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "aos": "^3.0.0-beta.6",
     "autoprefixer": "^10.4.13",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.19",
