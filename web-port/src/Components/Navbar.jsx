@@ -15,7 +15,7 @@ const Nav = () => {
    
    return (
      
-      <div className="sticky top-0">
+      
     <div className=" flex mx-auto px-4 bg-[#6b77c0]  justify-between items-center text-gray-50 h-28 " >
          <div > <img src= {Picture} alt="Hello" style={{width: '160px'}} />
          </div>
@@ -51,7 +51,7 @@ const Nav = () => {
          
     </div>
 
-   </div>
+   
    );
 };
 

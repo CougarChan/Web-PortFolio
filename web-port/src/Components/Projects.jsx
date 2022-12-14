@@ -8,9 +8,9 @@ const Project =() => {
  return(
     <div name="Projects" className=" bg-slate-600 md:h-screen w-full ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-
-            <h1>These are the projects that i have worked on and completed</h1>
-
+             <div className="pb-12">
+            <h1 className="m-4 text-2xl inline border-b-5  border-b-4 font-extrabold text-white"  >These are the projects that i have worked on and completed</h1>
+              </div>
 
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -21,11 +21,11 @@ const Project =() => {
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
     className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
+              flex justify-center text-center items-center mx-auto content-div transition ease-out duration-500 "
   >
    
     <div className="opacity-0 group-hover:opacity-100 ">
-      <span className="text-2xl font bold text-white tracking-wider ">
+      <span className="text-xl font bold text-white tracking-wider ">
         {item.name}
       </span>
       <div className="pt-8 text-center ">
