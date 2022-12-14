@@ -4,6 +4,8 @@ import WorkDay from '../assets/WorkDay.png'
 import Generator from '../assets/Generator.png'
 import WebDay from  '../assets/WebQuiz.png'
 import NoSQL from '../assets/NoSql.gif'
+import Budget from '../assets/Budget-Tracker.png'
+import Pop from '../assets/PopCorn.png'
 
 export const data=[
             {
@@ -35,18 +37,18 @@ export const data=[
                 live:"https://drive.google.com/file/d/1BYxnBtXEgQDJOxM-KBor_wgJfMw7bBu0/view",
             },
             {
-                id:4,
-                name:"React JS Application",
-                image:RealEst,
-                github:"",
-                live:"",
+                id:5,
+                name:"Budget-Tracker *This project is currently working but due to heroku policy changes, it can't be live. ",
+                image:Budget,
+                github:"https://github.com/CougarChan/Budget-Tracker",
+                live:"https://github.com/CougarChan/Budget-Tracker",
             },
             {
-                id:4,
-                name:"React JS Application",
-                image:RealEst,
-                github:"",
-                live:"",
+                id:6,
+                name:"PopCorn Time *This was our first project",
+                image:Pop,
+                github:"https://github.com/aaguirre7/popcorn_time",
+                live:"https://aaguirre7.github.io/popcorn_time/",
             },
            
         
