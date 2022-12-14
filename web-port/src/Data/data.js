@@ -1,5 +1,4 @@
-import WorkIm from '../assets/portfolio.png'
-import RealEst from '../assets/portfolio.png'
+
 import WorkDay from '../assets/WorkDay.png'
 import Generator from '../assets/Generator.png'
 import WebDay from  '../assets/WebQuiz.png'
@@ -7,7 +6,9 @@ import NoSQL from '../assets/NoSql.gif'
 import Budget from '../assets/Budget-Tracker.png'
 import Pop from '../assets/PopCorn.png'
 
+
 export const data=[
+    
             {
                 id:1,
                 name:"Work Day Scheduler",
