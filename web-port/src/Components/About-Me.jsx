@@ -13,12 +13,12 @@ const About = () => {
   }, []);
 
   return (
-   <div className=" bg-[#0a192f] h-screen  flex items-center  justify-evenly md">
+   <div className=" bg-[#0a192f]   flex items-center border-b-2 justify-evenly ">
    <div name='About-Me'className="   flex flex-row max-w-[1500px] w-full justify-between h-full items-center  ">
     <div className="  max-h-[900px] py-6 h-full ">
     <div data-aos= "fade-up" data-aos-duration="1000">
       <h1 className=" text-6xl  font-bold border-b-4 border-blue-600 w-2/4  text-slate-400">About Me </h1>
-         <h2 className=" text-5xl font-bold text-white ">My name is German Lopez</h2>
+         <h2 className=" text-5xl font-bold text-slate-400 mt-6 ">My name is German Lopez</h2>
          <p className=" text-xl py-8 max-w-[700px]  text-white">Welcome to my Portfolio! I am a full-stack developer who specalize in a building applications, currently I am working with websites utililziing fullstack. Also Ive worked in building applications and using different frameworks. Thank you! Enjoy your time! </p>
          
         </div>
@@ -40,8 +40,8 @@ const About = () => {
        </button>
       </div>
     
-    <div data-aos="fade-down" data-aos-duration="1000" className=" text-white mx-auto max-w-[700px] w-full max-h-[700px] h-full items-center rounded-md " >
-      <div className="flex flex-col h-full items-center"> 
+    <div data-aos="fade-down" data-aos-duration="1000" className=" text-white mx-auto max-w-[700px] w-full max-h-[700px] h-full items-center rounded-md" >
+      <div className="flex flex-col h-screen items-center"> 
       <h1 className=" font-bold py-4 border px-6 bg-black rounded-sm">Here are my top skills and languages</h1>
      <div className="max-w-[650px] mt-6 w-full flex flex-col max-h-[650px] items-center border bg-black rounded-md h-full">
            <div className="  mt-6 max-w-[500px] w-full items-center  ">

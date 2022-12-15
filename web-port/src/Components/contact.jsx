@@ -11,11 +11,11 @@ const Contact =() => {
     };
 
    return(
-      <div name="Contact" className="w-full h-screen flex justify-center items-center bg-slate-500 p-4">
+      <div name="Contact" className="w-full h-screen flex justify-center items-center bg-[#0a192f] p-4">
         <form action="https://getform.io/f/5ec733f2-319d-4730-be5d-d8995c956088" method="POST" className="flex flex-col max-w-[700px] w-full">
             <div className='pb-5'>
 
-             <p className="text-white text-4xl font-bold pb-1 mb-2 border-b-8 text-center"> Contact</p>
+             <p className="text-white text-4xl font-bold pb-1  border-b-8 text-center mb-4"> Contact</p>
              <p className=" text-white font-medium">If you wish to pursue further business with me, Send me a message with your email. Have a wonderful day!</p>   
 
 
