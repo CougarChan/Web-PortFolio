@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Web-Portfolio/static/css/main.e40bad7f.css",
-    "main.js": "/Web-Portfolio/static/js/main.298602a0.js",
+    "main.css": "/Web-Portfolio/static/css/main.0e8aebd2.css",
+    "main.js": "/Web-Portfolio/static/js/main.dfa1f7f1.js",
     "static/media/PopCorn.png": "/Web-Portfolio/static/media/PopCorn.aa66942d04ab85a8f3e1.png",
     "static/media/NoSql.gif": "/Web-Portfolio/static/media/NoSql.edf547e988d37628afc5.gif",
-    "static/media/Resume.pdf": "/Web-Portfolio/static/media/Resume.e43d7cbf8fe9c56ef9f4.pdf",
     "static/media/WorkDay.png": "/Web-Portfolio/static/media/WorkDay.7d2d6eb02193fb818eb3.png",
     "static/media/Budget-Tracker.png": "/Web-Portfolio/static/media/Budget-Tracker.bc745a12ad42a43ceae8.png",
+    "static/media/Resume.pdf": "/Web-Portfolio/static/media/Resume.1c4bbb1c603979a7b449.pdf",
     "static/media/portfolio.png": "/Web-Portfolio/static/media/portfolio.310ca8bd0c13b4734cb4.png",
     "static/media/Generator.png": "/Web-Portfolio/static/media/Generator.409119efe535d54e9506.png",
     "static/media/German López (1).png": "/Web-Portfolio/static/media/German López (1).d1a9485846320464fc03.png",
     "static/media/WebQuiz.png": "/Web-Portfolio/static/media/WebQuiz.99345b9d24dd33ea69ec.png",
     "index.html": "/Web-Portfolio/index.html",
-    "main.e40bad7f.css.map": "/Web-Portfolio/static/css/main.e40bad7f.css.map",
-    "main.298602a0.js.map": "/Web-Portfolio/static/js/main.298602a0.js.map"
+    "main.0e8aebd2.css.map": "/Web-Portfolio/static/css/main.0e8aebd2.css.map",
+    "main.dfa1f7f1.js.map": "/Web-Portfolio/static/js/main.dfa1f7f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e40bad7f.css",
-    "static/js/main.298602a0.js"
+    "static/css/main.0e8aebd2.css",
+    "static/js/main.dfa1f7f1.js"
   ]
 }
