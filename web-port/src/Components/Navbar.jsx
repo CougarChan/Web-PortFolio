@@ -16,15 +16,15 @@ const Nav = () => {
    return (
      
       
-    <div className=" flex mx-auto px-4 bg-[#4353CD]  justify-between items-center text-gray-50 h-28 " >
+    <div className=" flex mx-auto px-4 bg-[#353CD4]  justify-between items-center text-gray-50 h-28 " >
          <div > <img src= {Picture} alt="Hello" style={{width: '160px'}} />
          </div>
          
-           <ul className="hidden md:flex  text-2xl text-black font-semibold ">
-              <li className="p-6 border-r hover:scale-110 transition ease-in-out duration-300 "><Link  to="About-Me"  smooth={true}  duration={500} >
+           <ul className="hidden md:flex  text-2xl text-white font-semibold ">
+              <li className="p-6 border-r border-black  hover:scale-110 transition ease-in-out duration-300 "><Link  to="About-Me"  smooth={true}  duration={500} >
           About Me
         </Link></li>
-              <li className="p-6 border-r hover:scale-110 transition ease-in-out duration-300"> <Link  to="Projects"  smooth={true}  duration={500} >
+              <li className="p-6 border-r border-black hover:scale-110 transition ease-in-out duration-300"> <Link  to="Projects"  smooth={true}  duration={500} >
           Projects
         </Link></li>
               <li className="p-6  hover:scale-110 transition ease-in-out duration-300"><Link  to="Contact"  smooth={true}  duration={500} >

@@ -27,8 +27,7 @@ const About = () => {
          <span> <p className="font-bold text-white">My interest in technology has been a life long interest to me, Ive enjoyed how things function and the way that happens, but i really didnt think of programming as my career, but fast foward
           to the present, and I've become a lot more knowledge about programming and even graduated with a certification in Web Development. I love this community due to how advance you have to be to learn the 
           new material and keep up with it.</p></span> 
-          <div data-aos="fade-right" data-aos-duration="1500" className="mt-10 px-3 py-3 rounded-r bg-white max-w-[300px]">  <h1 className=" text-2xl font-bold">Resume</h1> <a href="https://drive.google.com/file/d/1rWXeS1MKV9dP9Uz7Yl8ctdYngDhBFe4Z/view?usp=sharing" target="_blank"><CiCircleList size={120} className="my-6"></CiCircleList></a> 
-          <a href={Resume} download="Resume"> <button className="bg-blue-500  text-white  rounded-md font-semibold p-1 hover:scale-105 transition duration-500">You can download my resume here!</button></a> </div>
+          
         </div>
         <button className=" group transition ease-in-out text-white  bg-blue-500 hover:translate-y-2 hover:scale-100 hover:bg-blue-400 duration-300 items-center  rounded-md flex px-6 py-2 font-semibold mt-6 "> 
       <Link  to="Projects"  smooth={true}  duration={500} >
@@ -40,10 +39,10 @@ const About = () => {
        </button>
       </div>
     
-    <div data-aos="fade-down" data-aos-duration="1000" className=" text-white mx-auto max-w-[700px] w-full max-h-[700px] h-full items-center rounded-md" >
+    <div data-aos="fade-down" data-aos-duration="1000" className=" text-white mx-auto max-w-[700px] w-full my-6 items-center rounded-md" >
       <div className="flex flex-col h-screen items-center"> 
-      <h1 className=" font-bold py-4 border px-6 bg-black rounded-sm">Here are my top skills and languages</h1>
-     <div className="max-w-[650px] mt-6 w-full flex flex-col max-h-[650px] items-center border bg-black rounded-md h-full">
+      <h1 className=" font-bold py-4 border border-blue-700 px-6 bg-black rounded-sm">Here are my top skills and languages</h1>
+     <div className="max-w-[650px] mt-6 w-full flex flex-col max-h-[650px] items-center border border-blue-700 bg-black rounded-md h-full">
            <div className="  mt-6 max-w-[500px] w-full items-center  ">
             <h1 className="mx-2 font-bold">HTML</h1>
         <div className="w-full  bg-gray-300 h-3">

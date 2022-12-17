@@ -9,7 +9,7 @@ const Project =() => {
     <div name="Projects" className=" bg-[#0a192f] md:h-screen border-b-2 w-full ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
              <div className="pb-12">
-            <h1 className="m-4 text-2xl inline border-b-5  border-b-4 font-extrabold text-white"  >These are some of the projects that I have worked on and completed</h1>
+            <h1 className="m-4 text-4xl flex border-b-5 border-b-blue-500 border-b-4 font-extrabold text-gray-300 "  >These are some of the projects that I have worked on and completed</h1>
               </div>
 
 
