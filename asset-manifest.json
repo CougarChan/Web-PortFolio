@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Web-Portfolio/static/css/main.711619bd.css",
-    "main.js": "/Web-Portfolio/static/js/main.acd48371.js",
+    "main.css": "/Web-Portfolio/static/css/main.83674257.css",
+    "main.js": "/Web-Portfolio/static/js/main.526b9969.js",
     "static/media/PopCorn.png": "/Web-Portfolio/static/media/PopCorn.aa66942d04ab85a8f3e1.png",
     "static/media/NoSql.gif": "/Web-Portfolio/static/media/NoSql.edf547e988d37628afc5.gif",
     "static/media/WorkDay.png": "/Web-Portfolio/static/media/WorkDay.7d2d6eb02193fb818eb3.png",
@@ -12,11 +12,11 @@
     "static/media/German López (1).png": "/Web-Portfolio/static/media/German López (1).d1a9485846320464fc03.png",
     "static/media/WebQuiz.png": "/Web-Portfolio/static/media/WebQuiz.99345b9d24dd33ea69ec.png",
     "index.html": "/Web-Portfolio/index.html",
-    "main.711619bd.css.map": "/Web-Portfolio/static/css/main.711619bd.css.map",
-    "main.acd48371.js.map": "/Web-Portfolio/static/js/main.acd48371.js.map"
+    "main.83674257.css.map": "/Web-Portfolio/static/css/main.83674257.css.map",
+    "main.526b9969.js.map": "/Web-Portfolio/static/js/main.526b9969.js.map"
   },
   "entrypoints": [
-    "static/css/main.711619bd.css",
-    "static/js/main.acd48371.js"
+    "static/css/main.83674257.css",
+    "static/js/main.526b9969.js"
   ]
 }
