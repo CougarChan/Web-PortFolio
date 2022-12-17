@@ -27,7 +27,7 @@ const About = () => {
          <span> <p className="font-bold text-white">My interest in technology has been a life long kink to me, Ive enjoyed how things function and the way that happens, but i really didnt think of programming as my career, but fast foward
           to the present, and I've become a lot more knowledge about programming and even graduated with a certification in Web Development. I love this community due to how advance you have to be to learn the 
           new material and keep up with it.</p></span> 
-          <div data-aos="fade-right" data-aos-duration="1500" className="mt-10 px-3 py-3 rounded-r bg-white max-w-[300px]">  <h1 className=" text-2xl font-bold">Resume</h1> <a href="https://drive.google.com/file/d/1Xp7h7T1CSrB5-m6MET9UmPZ2BgycLlQW/view" target="_blank"><CiCircleList size={120} className="my-6"></CiCircleList></a> 
+          <div data-aos="fade-right" data-aos-duration="1500" className="mt-10 px-3 py-3 rounded-r bg-white max-w-[300px]">  <h1 className=" text-2xl font-bold">Resume</h1> <a href="https://drive.google.com/file/d/1rWXeS1MKV9dP9Uz7Yl8ctdYngDhBFe4Z/view?usp=sharing" target="_blank"><CiCircleList size={120} className="my-6"></CiCircleList></a> 
           <a href={Resume} download="Resume"> <button className="bg-blue-500  text-white  rounded-md font-semibold p-1 hover:scale-105 transition duration-500">You can download my resume here!</button></a> </div>
         </div>
         <button className=" group transition ease-in-out text-white  bg-blue-500 hover:translate-y-2 hover:scale-100 hover:bg-blue-400 duration-300 items-center  rounded-md flex px-6 py-2 font-semibold mt-6 "> 
