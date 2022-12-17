@@ -14,19 +14,19 @@ const About = () => {
 
   return (
    <div className=" bg-[#0a192f]   flex items-center border-b-2 justify-evenly ">
-   <div name='About-Me'className="   flex flex-row max-w-[1500px] w-full justify-between h-full items-center  ">
+   <div data-aos="fade-up" data-aos-duration="1000" name='About-Me'className="   flex flex-row max-w-[1500px] w-full justify-between h-full items-center  ">
     <div className="  max-h-[900px] py-6 h-full ">
-    <div data-aos= "fade-up" data-aos-duration="1000">
+     
       <h1 className=" text-6xl  font-bold border-b-4 border-blue-600 w-2/4  text-slate-400">About <span className="text-white">Me</span> </h1>
          <h2 className=" text-5xl font-bold text-slate-400 mt-6 ">My name is <span className="text-white"> German Lopez </span></h2>
-         <p className=" text-xl py-8 max-w-[700px]  font-sans text-white">Welcome to my Portfolio! I am a full-stack developer who specalize in a building applications, currently I am working with websites utililziing fullstack. Also Ive worked in building applications and using different frameworks. Thank you! Enjoy your time! </p>
+         <p className=" text-xl py-8 max-w-[700px] font-bold font-sans text-white">Welcome to my Portfolio! I am a full-stack developer who specializes in a building applications, currently working with websites using various frameworks to work front and back-end.  </p>
          
-        </div>
-        <div className=" flex flex-col max-w-[700px]" data-aos="fade-right " data-aos-duration="1000">
-         <p className="mb-8 font-bold text-white"> Currently looking for work in the miami area. Always will be looking for an oppurtonity to advance my programming pursuits.  </p>
-         <span> <p className="font-bold text-white">My interest in technology has been a life long interest to me, Ive enjoyed how things function and the way that happens, but i really didnt think of programming as my career, but fast foward
-          to the present, and I've become a lot more knowledge about programming and even graduated with a certification in Web Development. I love this community due to how advance you have to be to learn the 
-          new material and keep up with it.</p></span> 
+        
+        <div className=" flex flex-col max-w-[700px]">
+        <p className="font-bold mb-8 text-white">My interest in technology has been a life long for me, Ive enjoyed how things function and work in unison, but I really didnt think of programming as my career, but fast forward
+          to the present, and I've become a lot more knowledgable about programming and even graduated with a certification in Web Development. I love this community due to how much you have to keep up with new material constantly coming out.</p>
+         <p className=" font-bold text-white"> Currently looking for work in the Miami area (On-site or Remote). Always will be looking for an opportunity to advance my programming pursuits.  </p>
+          
           
         </div>
         <button className=" group transition ease-in-out text-white  bg-blue-500 hover:translate-y-2 hover:scale-100 hover:bg-blue-400 duration-300 items-center  rounded-md flex px-6 py-2 font-semibold mt-6 "> 
@@ -39,7 +39,7 @@ const About = () => {
        </button>
       </div>
     
-    <div data-aos="fade-down" data-aos-duration="1000" className=" text-white mx-auto max-w-[700px] w-full my-6 items-center rounded-md" >
+    <div data-aos="fade-up" data-aos-duration="1000" className=" text-white mx-auto max-w-[700px] w-full my-6 items-center rounded-md" >
       <div className="flex flex-col h-screen items-center"> 
       <h1 className=" font-bold py-4 border border-blue-700 px-6 bg-black rounded-sm">Here are my top skills and languages</h1>
      <div className="max-w-[650px] mt-6 w-full flex flex-col max-h-[650px] items-center border border-blue-700 bg-black rounded-md h-full">

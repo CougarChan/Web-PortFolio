@@ -1,5 +1,7 @@
 import React from "react";
 import { data } from "../Data/data";
+import { Link } from "react-scroll";
+import { TiChevronRight } from "react-icons/ti";
 
 const Project =() => {
 
@@ -54,6 +56,16 @@ const Project =() => {
 
 
 </div>
+<div className=" m-auto ">
+<button className=" group transition ease-in-out text-white max-w-md   bg-blue-500 hover:translate-y-2 hover:scale-100 hover:bg-blue-400 duration-300 items-center  rounded-md flex px-6 py-2 font-semibold mt-6 "> 
+      <Link  to="Contact"  smooth={true}  duration={500} >
+          Take me to your Contact Page!
+        </Link>
+       <span className=" group-hover:rotate-90">
+       <TiChevronRight className=" ml-2"/>
+       </span>
+       </button>
+       </div>
       </div>
     </div>
   );
